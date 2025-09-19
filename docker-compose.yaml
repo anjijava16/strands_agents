@@ -1,0 +1,19 @@
+services:
+  agent-api:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+volumes:
+  data:
+
+networks:
+  app-network:
+    name: app-network
