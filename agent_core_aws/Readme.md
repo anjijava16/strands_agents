@@ -24,16 +24,28 @@
 ╭─ Options ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ --help          Show this message and exit.                                                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
 ╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+
 │ invoke                      Invoke Bedrock AgentCore endpoint.                                                                                           │
+
 │ status                      Get Bedrock AgentCore status including config and runtime details.                                                           │
+
 │ launch                      Launch Bedrock AgentCore with three deployment modes.                                                                        │
+
 │ import-agent                Use a Bedrock Agent to generate a LangChain or Strands agent with AgentCore primitives.                                      │
+
 │ destroy                     Destroy Bedrock AgentCore resources.                                                                                         │
+
 │ create_mcp_gateway          Creates an MCP Gateway.                                                                                                      │
+
 │ create_mcp_gateway_target   Creates an MCP Gateway Target.                                                                                               │
+
 │ configure                   Configuration management                                                                                                     │
+
 │ gateway                     Manage Bedrock AgentCore Gateways                                                                                            │
+
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
