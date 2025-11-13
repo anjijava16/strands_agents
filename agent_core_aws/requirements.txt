@@ -1,0 +1,10 @@
+bedrock-agentcore-starter-toolkit
+strands-agents
+bedrock-agentcore
+fastapi
+uvicorn[standard] 
+pydantic 
+httpx
+mcp
+strands-agents[a2a]
+strands-agents-tools
