@@ -1,3 +1,14 @@
+
+sh-5.2$ sudo -u ec2-user -i
+KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$ whoami
+ec2-user
+KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$
+KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$
+KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$ pwd
+/home/ec2-user
+KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$ ls -ltr
+total 203080
+-rw-r--r--. 1 ec2-user ec2-user 122262469 Oct  6 21:04 kafka_2.12-3.9.1.tgz
 rw-r--r--. 1 ec2-user ec2-user  85686001 Oct 13 17:12 venv.tar.gz
 drwxr-xr-x. 7 ec2-user ec2-user       105 Nov 13 04:32 kafka
 KafkaClientEC2Instance1 [ec2-user@ip-10-0-1-124 ~]$ ### Set up client config for IAM authentication:
