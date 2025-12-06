@@ -30,6 +30,7 @@ All you need to do is decorate your function with the @app.entrypoint decorator 
 
 # agentcore --help
 
+```
 (.venv) welcome@jaisairams-Laptop agent_core_aws % agentcore --help
                                                                                                                                                             
  Usage: agentcore [OPTIONS] COMMAND [ARGS]...                                                                                                               
@@ -63,7 +64,7 @@ All you need to do is decorate your function with the @app.entrypoint decorator 
 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-
+```
 
 # References:
 1. https://strandsagents.com/latest/documentation/docs/user-guide/deploy/deploy_to_bedrock_agentcore/
