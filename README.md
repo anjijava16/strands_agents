@@ -4,6 +4,7 @@ Strands agents utils
 
 # AWS AgentCore
 1. https://github.com/awslabs/amazon-bedrock-agentcore-samples/tree/main/01-tutorials/01-AgentCore-runtime/05-hosting-a2a
+2. https://medium.com/%40joudwawad/aws-bedrock-agentcore-deep-dive-6822e4071774
 
    
 ## Features
